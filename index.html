@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Download approved LitSquare Symbols SVG icons for diagrams, tools, and apps.">
+  <meta property="og:title" content="LitSquare Symbols">
+  <title>LitSquare Symbols</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="public.js" defer></script>
+  <script type="module" src="footer.js"></script>
+</head>
+<body class="public-site">
+  <a class="skip-link" href="#content">Skip to content</a>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="wordmark" href="#top">LitSquare Symbols</a>
+      <nav aria-label="Primary"><a href="#specimen">Specimen</a><a href="#library">Library</a><a href="#usage">Usage</a></nav>
+    </div>
+  </header>
+  <main id="content">
+    <section class="hero shell" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow">Public specimen · Version 3.1.2</p>
+        <h1>Symbols that sit with the text.</h1>
+        <p class="lede">A collection of icons for agents, tools, and workflows. See how they sit alongside type, then download SVGs for your own projects.</p>
+        <div class="actions">
+          <a class="button button-solid" href="#library">Browse icons</a>
+          <a class="button button-subtle" href="#specimen">Try the specimen</a>
+        </div>
+      </div>
+      <div class="hero-specimen" role="img" aria-label="Human icon with letters and cap-height, x-height, and baseline guides">
+        <div class="hero-line" aria-hidden="true"><span>A</span><img class="public-sample" src="icons/litsquare.agent.human.svg" alt=""><span>a4</span><span class="baseline-probe"></span></div>
+        <div class="metric metric-cap" aria-hidden="true"><span>Cap</span></div>
+        <div class="metric metric-x" aria-hidden="true"><span>x-height</span></div>
+        <div class="metric metric-base" aria-hidden="true"><span>Baseline</span></div>
+      </div>
+    </section>
+
+    <section class="stats" aria-label="Library summary">
+      <div class="shell stat-grid">
+        <div><strong>10</strong><span>downloadable icons</span></div>
+        <div><strong>200–900</strong><span>specimen weights</span></div>
+        <div><strong>SVG</strong><span>download format</span></div>
+        <div><strong>CC BY 4.0</strong><span>LitSquare artwork</span></div>
+      </div>
+    </section>
+
+    <section class="section shell" id="specimen">
+      <div class="section-heading">
+        <p class="eyebrow">Alignment specimen</p>
+        <h2>Set the icon with the type.</h2>
+        <p>Type a sample and compare the human icon with System UI text. The specimen starts at Regular (400) and steps from Thin (200) to Black (900). The Regular and Bold rows stay fixed for comparison.</p>
+      </div>
+      <div class="specimen-panel">
+        <div class="controls" id="specimen-controls" hidden>
+          <label class="field" for="specimen-text"><span>Reference text</span><input id="specimen-text" type="text" value="Agent 42_a" maxlength="64"></label>
+          <label class="field" for="specimen-weight">
+            <span class="field-row"><span>Weight</span><output id="weight-value" for="specimen-weight">Regular · 400</output></span>
+            <input id="specimen-weight" type="range" min="200" max="900" step="100" value="400">
+          </label>
+        </div>
+        <div class="comparison-stage">
+          <p class="comparison-label">LitSquare symbol · Adjustable weight</p>
+          <div class="public-comparison-scroll">
+            <p class="comparison system-comparison" id="comparison-preview"><span data-sample-text>Agent 42_a</span><img class="public-sample comparison-glyph" id="comparison-icon" src="icons/litsquare.agent.human.svg" alt="Human icon"><span class="baseline-probe" aria-hidden="true"></span><span class="baseline" aria-hidden="true"></span></p>
+          </div>
+          <p class="comparison-label">System UI · Regular</p>
+          <div class="public-comparison-scroll">
+            <p class="comparison system-comparison"><span data-sample-text>Agent 42_a</span><img class="public-sample comparison-glyph" src="icons/litsquare.agent.human.svg" alt="Human icon"><span class="baseline-probe" aria-hidden="true"></span><span class="baseline" aria-hidden="true"></span></p>
+          </div>
+          <p class="comparison-label">System UI · Bold</p>
+          <div class="public-comparison-scroll">
+            <p class="comparison system-comparison system-bold"><span data-sample-text>Agent 42_a</span><img class="public-sample comparison-glyph" src="icons/Bold/litsquare.agent.human.svg" alt="Human icon"><span class="baseline-probe" aria-hidden="true"></span><span class="baseline" aria-hidden="true"></span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell" id="library" aria-labelledby="library-heading">
+      <div class="section-heading library-heading">
+        <div>
+          <p class="eyebrow">Library</p>
+          <h2 id="library-heading">One registry, useful everywhere.</h2>
+        </div>
+        <label class="search public-search" for="glyph-search" hidden>
+          <span class="visually-hidden">Search icons</span>
+          <input id="glyph-search" type="search" placeholder="Search by name or code point" autocomplete="off">
+        </label>
+      </div>
+      <p class="library-status" id="library-status" role="status">10 icons</p>
+      <ul class="glyph-grid public-grid">
+        <li class="glyph-item" id="litsquare.plugin" data-name="plugin" data-code="U+E201" data-notice="bootstrap-icons-LICENSE.txt" data-upstream="https://icons.getbootstrap.com/icons/plugin/"><span class="glyph-mark"><img src="icons/litsquare.plugin.svg" alt="" width="56" height="55"></span><div class="glyph-meta"><span class="glyph-name">plugin</span><span class="glyph-code">U+E201</span><button class="glyph-usage usage-download-trigger" type="button" aria-label="Usage and download for plugin" aria-haspopup="dialog" aria-controls="usage-dialog" hidden>ⓘ Usage &amp; download</button></div></li>
+        <li class="glyph-item" id="litsquare.agent" data-name="agent" data-code="U+E202" data-notice="phosphor-icons-LICENSE.txt" data-upstream="https://phosphoricons.com/"><span class="glyph-mark"><img src="icons/litsquare.agent.svg" alt="" width="56" height="55"></span><div class="glyph-meta"><span class="glyph-name">agent</span><span class="glyph-code">U+E202</span><button class="glyph-usage usage-download-trigger" type="button" aria-label="Usage and download for agent" aria-haspopup="dialog" aria-controls="usage-dialog" hidden>ⓘ Usage &amp; download</button></div></li>
+        <li class="glyph-item" id="litsquare.agent.autonomous" data-name="agent.autonomous" data-code="U+E204" data-notice="phosphor-icons-LICENSE.txt" data-upstream="https://phosphoricons.com/"><span class="glyph-mark"><img src="icons/litsquare.agent.autonomous.svg" alt="" width="56" height="55"></span><div class="glyph-meta"><span class="glyph-name">agent.autonomous</span><span class="glyph-code">U+E204</span><button class="glyph-usage usage-download-trigger" type="button" aria-label="Usage and download for agent.autonomous" aria-haspopup="dialog" aria-controls="usage-dialog" hidden>ⓘ Usage &amp; download</button></div></li>
+        <li class="glyph-item" id="litsquare.agent.human" data-name="agent.human" data-code="U+E205" data-notice="phosphor-icons-LICENSE.txt" data-upstream="https://phosphoricons.com/"><span class="glyph-mark"><img src="icons/litsquare.agent.human.svg" alt="" width="56" height="55"></span><div class="glyph-meta"><span class="glyph-name">agent.human</span><span class="glyph-code">U+E205</span><button class="glyph-usage usage-download-trigger" type="button" aria-label="Usage and download for agent.human" aria-haspopup="dialog" aria-controls="usage-dialog" hidden>ⓘ Usage &amp; download</button></div></li>
+        <li class="glyph-item" id="litsquare.chatbot" data-name="chatbot" data-code="U+E206" data-notice="phosphor-icons-LICENSE.txt" data-upstream="https://phosphoricons.com/"><span class="glyph-mark"><img src="icons/litsquare.chatbot.svg" alt="" width="56" height="55"></span><div class="glyph-meta"><span class="glyph-name">chatbot</span><span class="glyph-code">U+E206</span><button class="glyph-usage usage-download-trigger" type="button" aria-label="Usage and download for chatbot" aria-haspopup="dialog" aria-controls="usage-dialog" hidden>ⓘ Usage &amp; download</button></div></li>
+        <li class="glyph-item" id="litsquare.playbook" data-name="playbook" data-code="U+E207" data-notice="" data-upstream=""><span class="glyph-mark"><img src="icons/litsquare.playbook.svg" alt="" width="56" height="55"></span><div class="glyph-meta"><span class="glyph-name">playbook</span><span class="glyph-code">U+E207</span><button class="glyph-usage usage-download-trigger" type="button" aria-label="Usage and download for playbook" aria-haspopup="dialog" aria-controls="usage-dialog" hidden>ⓘ Usage &amp; download</button></div></li>
+        <li class="glyph-item" id="litsquare.plugin.fill" data-name="plugin.fill" data-code="U+E208" data-notice="bootstrap-icons-LICENSE.txt" data-upstream="https://icons.getbootstrap.com/icons/plugin/"><span class="glyph-mark"><img src="icons/litsquare.plugin.fill.svg" alt="" width="56" height="55"></span><div class="glyph-meta"><span class="glyph-name">plugin.fill</span><span class="glyph-code">U+E208</span><button class="glyph-usage usage-download-trigger" type="button" aria-label="Usage and download for plugin.fill" aria-haspopup="dialog" aria-controls="usage-dialog" hidden>ⓘ Usage &amp; download</button></div></li>
+        <li class="glyph-item" id="litsquare.subagent" data-name="subagent" data-code="U+E20A" data-notice="" data-upstream=""><span class="glyph-mark"><img src="icons/litsquare.subagent.svg" alt="" width="56" height="55"></span><div class="glyph-meta"><span class="glyph-name">subagent</span><span class="glyph-code">U+E20A</span><button class="glyph-usage usage-download-trigger" type="button" aria-label="Usage and download for subagent" aria-haspopup="dialog" aria-controls="usage-dialog" hidden>ⓘ Usage &amp; download</button></div></li>
+        <li class="glyph-item" id="litsquare.skill" data-name="skill" data-code="U+E209" data-notice="" data-upstream=""><span class="glyph-mark"><img src="icons/litsquare.skill.svg" alt="" width="56" height="55"></span><div class="glyph-meta"><span class="glyph-name">skill</span><span class="glyph-code">U+E209</span><button class="glyph-usage usage-download-trigger" type="button" aria-label="Usage and download for skill" aria-haspopup="dialog" aria-controls="usage-dialog" hidden>ⓘ Usage &amp; download</button></div></li>
+        <li class="glyph-item" id="litsquare.book" data-name="book" data-code="U+E20B" data-notice="" data-upstream=""><span class="glyph-mark"><img src="icons/litsquare.book.svg" alt="" width="56" height="55"></span><div class="glyph-meta"><span class="glyph-name">book</span><span class="glyph-code">U+E20B</span><button class="glyph-usage usage-download-trigger" type="button" aria-label="Usage and download for book" aria-haspopup="dialog" aria-controls="usage-dialog" hidden>ⓘ Usage &amp; download</button></div></li>
+      </ul>
+    </section>
+
+    <section class="section shell availability" id="usage" aria-labelledby="usage-heading">
+      <div>
+        <p class="eyebrow">Distribution</p>
+        <h2 id="usage-heading">Using the icons.</h2>
+      </div>
+      <ul>
+        <li>Choose Usage &amp; download on an icon to see its terms and download its Regular SVG.</li>
+        <li>Credit “LitSquare — LitSquare Symbols,” link the source and license, and describe any changes.</li>
+        <li>LitSquare’s contributions use <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. See the <a href="icons.json">per-icon inventory</a> and <a href="licenses/litsquare-generic-CC-BY-4.0.md">artwork notice</a> and keep applicable <a href="licenses/bootstrap-icons-LICENSE.txt">Bootstrap</a> and <a href="licenses/phosphor-icons-LICENSE.txt">Phosphor</a> notices.</li>
+      </ul>
+    </section>
+  </main>
+
+  <dialog id="usage-dialog" class="usage-dialog" aria-labelledby="usage-dialog-title">
+    <form method="dialog" class="usage-dialog-header">
+      <p class="eyebrow">Free to use · CC BY 4.0</p>
+      <button class="usage-close" autofocus>Close</button>
+    </form>
+    <h2 id="usage-dialog-title"></h2>
+    <p>Use, share, or adapt this icon in diagrams, presentations, websites, apps, and commercial projects. CC BY 4.0 covers LitSquare’s contributions. Keep the applicable upstream notices.</p>
+    <h3>Attribution example</h3>
+    <p class="usage-attribution"><span id="usage-credit-name"></span> by <a href="#library" id="usage-source">LitSquare — LitSquare Symbols</a>, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Describe any changes you make.</p>
+    <p id="usage-upstream" hidden>Keep the <a id="usage-upstream-link"></a> with the artwork. <a id="usage-upstream-source">View the upstream project</a>.</p>
+    <p class="usage-policy"><a href="licenses/litsquare-generic-CC-BY-4.0.md">Read the artwork notice</a></p>
+    <a id="usage-dialog-download" class="button button-solid" download>Download Regular SVG</a>
+  </dialog>
+  <footer class="site-footer" aria-label="AP.CX project footer">
+    <div class="shell footer-inner">
+      <nav class="footer-links" aria-label="Foundry"><a href="https://ap.cx/about">About AP.CX</a><a href="https://ap.cx/contact">Contact</a></nav>
+    </div>
+    <div class="footer-banner">
+      <p class="footer-banner-fallback" aria-hidden="true">Another Planet . Creative eXperience</p>
+      <div id="footer-marquee" aria-hidden="true"></div>
+      <button id="footer-motion" class="footer-motion" type="button" aria-pressed="false" hidden>Pause animation</button>
+    </div>
+    <div class="shell footer-bottom">
+      <div><a class="footer-brand" href="https://ap.cx/">Another Planet Creative eXperience</a><p class="footer-copy">LitSquare Symbols · An AP.CX project</p></div>
+      <p class="footer-privacy"><a href="licenses/square-bot-sans-OFL.txt">Square Bot Sans</a> · <a href="licenses/gl-marquee-LICENSE.txt">Marquee renderer</a></p>
+    </div>
+  </footer>
+</body>
+</html>

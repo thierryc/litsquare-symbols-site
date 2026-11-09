@@ -1,0 +1,230 @@
+{
+  "version": "3.1.2",
+  "icons": [
+    {
+      "name": "litsquare.plugin",
+      "codePoint": "U+E201",
+      "license": "CC-BY-4.0",
+      "licenseURL": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "LitSquare \u2014 LitSquare Symbols",
+      "usage": "Generic symbol: free to copy, adapt, and use in diagrams and other projects, including commercially, under CC BY 4.0. Credit LitSquare, link the license, and indicate changes. Upstream licenses and notices still apply; no trademark rights or endorsement are granted.",
+      "files": [
+        {
+          "path": "icons/litsquare.plugin.svg",
+          "style": "Regular",
+          "purpose": "download"
+        }
+      ],
+      "upstream": {
+        "owner": "Bootstrap Icons",
+        "source": "https://icons.getbootstrap.com/icons/plugin/",
+        "license": "MIT",
+        "notice": "licenses/bootstrap-icons-LICENSE.txt"
+      }
+    },
+    {
+      "name": "litsquare.agent",
+      "codePoint": "U+E202",
+      "license": "CC-BY-4.0",
+      "licenseURL": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "LitSquare \u2014 LitSquare Symbols",
+      "usage": "Generic symbol: free to copy, adapt, and use in diagrams and other projects, including commercially, under CC BY 4.0. Credit LitSquare, link the license, and indicate changes. Upstream licenses and notices still apply; no trademark rights or endorsement are granted.",
+      "files": [
+        {
+          "path": "icons/litsquare.agent.svg",
+          "style": "Regular",
+          "purpose": "download"
+        }
+      ],
+      "upstream": {
+        "owner": "Phosphor Icons",
+        "source": "https://phosphoricons.com/",
+        "license": "MIT",
+        "notice": "licenses/phosphor-icons-LICENSE.txt"
+      }
+    },
+    {
+      "name": "litsquare.agent.autonomous",
+      "codePoint": "U+E204",
+      "license": "CC-BY-4.0",
+      "licenseURL": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "LitSquare \u2014 LitSquare Symbols",
+      "usage": "Generic symbol: free to copy, adapt, and use in diagrams and other projects, including commercially, under CC BY 4.0. Credit LitSquare, link the license, and indicate changes. Upstream licenses and notices still apply; no trademark rights or endorsement are granted.",
+      "files": [
+        {
+          "path": "icons/litsquare.agent.autonomous.svg",
+          "style": "Regular",
+          "purpose": "download"
+        }
+      ],
+      "upstream": {
+        "owner": "Phosphor Icons",
+        "source": "https://phosphoricons.com/",
+        "license": "MIT",
+        "notice": "licenses/phosphor-icons-LICENSE.txt"
+      }
+    },
+    {
+      "name": "litsquare.agent.human",
+      "codePoint": "U+E205",
+      "license": "CC-BY-4.0",
+      "licenseURL": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "LitSquare \u2014 LitSquare Symbols",
+      "usage": "Generic symbol: free to copy, adapt, and use in diagrams and other projects, including commercially, under CC BY 4.0. Credit LitSquare, link the license, and indicate changes. Upstream licenses and notices still apply; no trademark rights or endorsement are granted.",
+      "files": [
+        {
+          "path": "icons/Thin/litsquare.agent.human.svg",
+          "style": "Thin",
+          "purpose": "specimen"
+        },
+        {
+          "path": "icons/Light/litsquare.agent.human.svg",
+          "style": "Light",
+          "purpose": "specimen"
+        },
+        {
+          "path": "icons/litsquare.agent.human.svg",
+          "style": "Regular",
+          "purpose": "download"
+        },
+        {
+          "path": "icons/Medium/litsquare.agent.human.svg",
+          "style": "Medium",
+          "purpose": "specimen"
+        },
+        {
+          "path": "icons/Semibold/litsquare.agent.human.svg",
+          "style": "Semibold",
+          "purpose": "specimen"
+        },
+        {
+          "path": "icons/Bold/litsquare.agent.human.svg",
+          "style": "Bold",
+          "purpose": "specimen"
+        },
+        {
+          "path": "icons/Heavy/litsquare.agent.human.svg",
+          "style": "Heavy",
+          "purpose": "specimen"
+        },
+        {
+          "path": "icons/Black/litsquare.agent.human.svg",
+          "style": "Black",
+          "purpose": "specimen"
+        }
+      ],
+      "upstream": {
+        "owner": "Phosphor Icons",
+        "source": "https://phosphoricons.com/",
+        "license": "MIT",
+        "notice": "licenses/phosphor-icons-LICENSE.txt"
+      }
+    },
+    {
+      "name": "litsquare.chatbot",
+      "codePoint": "U+E206",
+      "license": "CC-BY-4.0",
+      "licenseURL": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "LitSquare \u2014 LitSquare Symbols",
+      "usage": "Generic symbol: free to copy, adapt, and use in diagrams and other projects, including commercially, under CC BY 4.0. Credit LitSquare, link the license, and indicate changes. Upstream licenses and notices still apply; no trademark rights or endorsement are granted.",
+      "files": [
+        {
+          "path": "icons/litsquare.chatbot.svg",
+          "style": "Regular",
+          "purpose": "download"
+        }
+      ],
+      "upstream": {
+        "owner": "Phosphor Icons",
+        "source": "https://phosphoricons.com/",
+        "license": "MIT",
+        "notice": "licenses/phosphor-icons-LICENSE.txt"
+      }
+    },
+    {
+      "name": "litsquare.playbook",
+      "codePoint": "U+E207",
+      "license": "CC-BY-4.0",
+      "licenseURL": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "LitSquare \u2014 LitSquare Symbols",
+      "usage": "Generic symbol: free to copy, adapt, and use in diagrams and other projects, including commercially, under CC BY 4.0. Credit LitSquare, link the license, and indicate changes. Upstream licenses and notices still apply; no trademark rights or endorsement are granted.",
+      "files": [
+        {
+          "path": "icons/litsquare.playbook.svg",
+          "style": "Regular",
+          "purpose": "download"
+        }
+      ],
+      "upstream": null
+    },
+    {
+      "name": "litsquare.plugin.fill",
+      "codePoint": "U+E208",
+      "license": "CC-BY-4.0",
+      "licenseURL": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "LitSquare \u2014 LitSquare Symbols",
+      "usage": "Generic symbol: free to copy, adapt, and use in diagrams and other projects, including commercially, under CC BY 4.0. Credit LitSquare, link the license, and indicate changes. Upstream licenses and notices still apply; no trademark rights or endorsement are granted.",
+      "files": [
+        {
+          "path": "icons/litsquare.plugin.fill.svg",
+          "style": "Regular",
+          "purpose": "download"
+        }
+      ],
+      "upstream": {
+        "owner": "Bootstrap Icons",
+        "source": "https://icons.getbootstrap.com/icons/plugin/",
+        "license": "MIT",
+        "notice": "licenses/bootstrap-icons-LICENSE.txt"
+      }
+    },
+    {
+      "name": "litsquare.subagent",
+      "codePoint": "U+E20A",
+      "license": "CC-BY-4.0",
+      "licenseURL": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "LitSquare \u2014 LitSquare Symbols",
+      "usage": "Generic symbol: free to copy, adapt, and use in diagrams and other projects, including commercially, under CC BY 4.0. Credit LitSquare, link the license, and indicate changes. Upstream licenses and notices still apply; no trademark rights or endorsement are granted.",
+      "files": [
+        {
+          "path": "icons/litsquare.subagent.svg",
+          "style": "Regular",
+          "purpose": "download"
+        }
+      ],
+      "upstream": null
+    },
+    {
+      "name": "litsquare.skill",
+      "codePoint": "U+E209",
+      "license": "CC-BY-4.0",
+      "licenseURL": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "LitSquare \u2014 LitSquare Symbols",
+      "usage": "Generic symbol: free to copy, adapt, and use in diagrams and other projects, including commercially, under CC BY 4.0. Credit LitSquare, link the license, and indicate changes. Upstream licenses and notices still apply; no trademark rights or endorsement are granted.",
+      "files": [
+        {
+          "path": "icons/litsquare.skill.svg",
+          "style": "Regular",
+          "purpose": "download"
+        }
+      ],
+      "upstream": null
+    },
+    {
+      "name": "litsquare.book",
+      "codePoint": "U+E20B",
+      "license": "CC-BY-4.0",
+      "licenseURL": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "LitSquare \u2014 LitSquare Symbols",
+      "usage": "Generic symbol: free to copy, adapt, and use in diagrams and other projects, including commercially, under CC BY 4.0. Credit LitSquare, link the license, and indicate changes. Upstream licenses and notices still apply; no trademark rights or endorsement are granted.",
+      "files": [
+        {
+          "path": "icons/litsquare.book.svg",
+          "style": "Regular",
+          "purpose": "download"
+        }
+      ],
+      "upstream": null
+    }
+  ]
+}
