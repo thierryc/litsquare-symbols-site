@@ -445,7 +445,7 @@ h2 {
   min-width: max-content;
   margin: 0 0 48px;
   font-size: clamp(3.1rem, 9vw, 9.4rem);
-  line-height: 0.95;
+  line-height: 1.3;
   white-space: nowrap;
 }
 
